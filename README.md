@@ -33,22 +33,16 @@ Each component is designed to be highly reusable and customizable via props. The
 5.Netlify – For live demo deployment.
 
 📦 Project Structure
-├── src/
-│   ├── components/
-│   │   ├── Button/
-│   │   ├── Input/
-│   │   ├── Modal/
-│   │   ├── Card/
-│   │   ├── Checkbox/
-│   │   ├── Radio/
-│   │   ├── Select/
-│   │   └── Tabs/
-│   ├── theme/             # Theme configurations
-│   └── index.js           # Library export
-├── stories/               # Storybook stories for each component
+├── .storybook/           # Storybook configuration
+├── public/               # Static files for Storybook/demo
+├── src/                  # Source code for components
+│   ├── components/       # All UI components (Button, Input, Modal, etc.)
+│   └── index.js          # Exports all components
 ├── package.json
+├── package-lock.json
 ├── README.md
-└── .storybook/            # Storybook configuration
+└── vite.config.js        # Vite configuration
+
 
 🖥️ How to Run Locally
 1.Clone the repository:   
