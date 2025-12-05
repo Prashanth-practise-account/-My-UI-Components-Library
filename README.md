@@ -80,4 +80,4 @@ Prashanth B H
 Frontend & React Developer
 GitHub:https://github.com/
 NPM Package:  https://www.npmjs.com/package/@bhprashanth/ui-library
-For collaboration or queries: bhprashanth@gmail.com
+For collaboration or queries: bhprashanth0@gmail.com
