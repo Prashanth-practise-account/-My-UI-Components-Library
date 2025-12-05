@@ -1,80 +1,34 @@
-# @bhprashanth/ui-library
+📦 UI Components Library
+A customizable, reusable, and themeable React UI components library. Built with React and Ant Design, this library provides consistent styling and ready-to-use components to accelerate frontend development.
 
-## 📦 Install
-npm install @bhprashanth/ui-library
+🚀 Project Overview
+The BH Prashanth UI Components Library is designed to help developers quickly build React applications with a consistent look and feel. It includes a variety of components like Buttons, Inputs, Modals, Cards, Checkboxes, Radios, Selects, Multiselects, and Tabs. Each component is highly customizable via props, supports theming, and can be previewed in an interactive Storybook or live demo.
+This library enables frontend teams to:
+1. Maintain a consistent UI/UX across multiple projects.
+2. Reduce repetitive code by reusing pre-built components.
+3. Quickly integrate customizable components with minimal setup.
+4. Experiment with props in a live demo for faster prototyping.
 
-# Getting Started with Create React App
+💼 Business Value
+1. Developers and product teams can use this library to:
+2. Speed up frontend development cycles.
+3. Ensure consistent styling and UX across multiple applications.
+4. Easily manage themes and component variants.
+5. Reduce manual effort in building common UI elements.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 🧠 Technical Workflow
 
-## Available Scripts
+Each component is designed to be highly reusable and customizable via props. The workflow of using the library is as follows:
+1.Install the library from NPM.
+2.Import the required components in your React project.
+3.Pass props to configure size, style, theme, and behavior.
+4.Preview and test components in Storybook or the live demo  .
+5.Deploy your app with the integrated components.
 
-In the project directory, you can run:
-
-### `npm start`
-### `npm run storybook`
-
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
+🛠️ Tech Stack
+1.React – For building components and UI.
+2.Ant Design – For consistent styling foundation.
+3.React Storybook – For interactive component documentation and testing.
+4.NPM – For publishing and sharing components.
+5.Netlify – For live demo deployment.
 
