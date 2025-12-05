@@ -33,16 +33,15 @@ Each component is designed to be highly reusable and customizable via props. The
 5.Netlify – For live demo deployment.
 
 📦 Project Structure
-.
-├── .storybook/          # Storybook configuration
-├── public/              # Static files for Storybook/demo
-├── src/                 # Source code for components
-│   ├── components/      # All UI components (Button, Input, Modal, etc.)
-│   └── index.js         # Exports all components
-├── package.json
-├── package-lock.json
-├── README.md
-└── vite.config.js       # Vite configuration
+├── main.py                # Streamlit UI
+├── DesignNodes.py         # Workflow definition using LangGraph
+├── ExecuteNodes.py        # Core agent logic for each workflow stage
+├── AgentState.py          # Shared state definition
+├── GetAppInfo.py          # Google Play Store metadata extractor
+├── ScrapeData.py          # Review scraping logic
+├── LLMConnectors.py       # Gemini LLM connection and prompt chaining
+├── SystemPrompts.py       # Carefully crafted system prompts for LLMs
+├── PydanticModels.py      # Output validation schemas for LLM responses
 
 
 
