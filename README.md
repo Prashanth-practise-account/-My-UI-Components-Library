@@ -32,3 +32,58 @@ Each component is designed to be highly reusable and customizable via props. The
 4.NPM – For publishing and sharing components.
 5.Netlify – For live demo deployment.
 
+📦 Project Structure
+├── src/
+│   ├── components/
+│   │   ├── Button/
+│   │   ├── Input/
+│   │   ├── Modal/
+│   │   ├── Card/
+│   │   ├── Checkbox/
+│   │   ├── Radio/
+│   │   ├── Select/
+│   │   └── Tabs/
+│   ├── theme/             # Theme configurations
+│   └── index.js           # Library export
+├── stories/               # Storybook stories for each component
+├── package.json
+├── README.md
+└── .storybook/            # Storybook configuration
+
+🖥️ How to Run Locally
+1.Clone the repository:   
+    git clone https://github.com/Prashanth-practise-account/-My-UI-Components-Library
+    cd ui-library
+2. npm install
+3.npm run storybook
+
+🧪 How to Use
+1.Install the library in your project:
+     npm install @bhprashanth/ui-library
+2.Import the required component:
+    import { Button, Input, Modal } from "@bhprashanth/ui-library";
+3. Use it in your React app:
+    <Button variant="primary" size="large" onClick={() => alert("Clicked!")}>
+  Click Me
+</Button>
+
+<Input
+  type="text"
+  placeholder="Enter your name"
+  value={value}
+  onChange={(e) => setValue(e.target.value)}
+/>
+4. Preview all components and props in the Live Dem:  https://6885dbb47e9316bd6520d31e--iridescent-mousse-252c4c.netlify.app/?path=/docs/configure-your-project--docs 
+
+💡 Customization Ideas and Future Enhancements
+  1. Additional Themes – Dark mode and custom color palettes.
+  2. Advanced Components – DatePicker, Carousel, Notifications.
+  3. TypeScript Support – Stronger type checking and auto-completion.
+  4. Automated NPM Releases – CI/CD pipeline for versioning and publishing.
+
+🧑‍💻 Author
+Prashanth B H
+Frontend & React Developer
+GitHub:https://github.com/
+NPM Package:  https://www.npmjs.com/package/@bhprashanth/ui-library
+For collaboration or queries: bhprashanth@gmail.com
