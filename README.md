@@ -33,6 +33,7 @@ Each component is designed to be highly reusable and customizable via props. The
 5.Netlify – For live demo deployment.
 
 📦 Project Structure
+
 ├── .storybook/           # Storybook configuration
 ├── public/               # Static files for Storybook/demo
 ├── src/                  # Source code for components
